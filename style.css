@@ -99,29 +99,30 @@ button
 }
 
 .about
-{ 
-    position:absolute;
+{  position:absolute;
     bottom:20px;
+    
+
     display:flex;
-    justify-content:center;
-    align-items:center;
-    color:#ffffff;
-    font-size:16px;
-    font-weight:600;
-}
-
-.github
-{
-    position:absolute;
-    bottom:1px;
-    right:500px;
+    align-items: center;
     gap:10px;
-    padding: 10px 18px ; 
 
-     
+    padding: 10px 18px ;
+    border-radius:12px;
+
+   
+     background:rgba(255,255,255,0.15);
+
+     backdrop-filter:blur(8px);
+     border:1px solid rgba(255,255,255,0.25);
+     color:white;
+
+     font-size:18px;
+     font-weight:600;
 }
 
-.github img
+
+.about img
 {
     width:32px;
     height:30px;    
